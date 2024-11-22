@@ -49,7 +49,7 @@ function deal() {
 function fillDeck() {
     for (let i = 0; i < cardSuits.length; i++){
         let suit = cardSuits[i];
-        for (let j = 0; j < cardFaces.length; j++) {
+        for (let i = 0; i < cardFaces.length; i++) {
             let face = cardFaces[j];
             let card = face + suit;
             deck.push(card);
@@ -332,7 +332,8 @@ function clearBoard() {
 // Once you get rest of the rest of the assignment completed, work on making this function
 // calculate the best hand total between A = 1 and A = 11. Hint: there can only be one high ace in a hand
 function getHandTotal(hand) {
-
+    let total = 0;
+    for( let i = 0; i <)
 }
 
 // Adds a card to the player's hand array and updates UI with the card
